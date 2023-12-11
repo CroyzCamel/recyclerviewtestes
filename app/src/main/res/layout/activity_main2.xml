@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Posts a recuperar"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/btActivity3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir para proxima tela" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btAcitivty3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aprecere a lista de acorod com o Id" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Recyclerviewtestes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/orange</item>
+        <item name="colorSecondary">@color/orange</item>
+    </style>
+
+    <style name="Theme.Recyclerviewtestes" parent="Base.Theme.Recyclerviewtestes" />
+</resources>
